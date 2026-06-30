@@ -93,11 +93,16 @@ buttonShowAll.forEach((button) => {
 function animateCounter(element, target) {
     let current = 0;
     const increment = target / 100;
+    const symbol = element.getAttribute('data-symbol') || ''; // ← PEGA O SÍMBOLO
     
     const timer = setInterval(() => {
         current += increment;
-        element.textContent = current >= target ? target : Math.floor(current);
-        if (current >= target) clearInterval(timer);
+        if (current >= target) {
+            element.textContent = symbol + target; // ← ADICIONA SÍMBOLO
+            clearInterval(timer);
+        } else {
+            element.textContent = Math.floor(current);
+        }
     }, 16);
 }
 
