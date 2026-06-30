@@ -1453,3 +1453,225 @@ body {
         font-size: 1.4rem;
     }
 }
+/* ========== HERO MOBILE - MÍNIMA SOMBRA ========== */
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: contain !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        min-height: 100vh !important;
+        background-color: #0a0a0a !important;
+    }
+    
+    .hero-overlay {
+        background: transparent !important; /* SEM OVERLAY */
+    }
+    
+    .hero-overlay::after {
+        display: none !important; /* SEM VINHETA */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: contain !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+    
+    .hero-overlay {
+        background: transparent !important;
+    }
+    
+    .hero-overlay::after {
+        display: none !important;
+    }
+}
+
+
+/* ========== FIX HERO MOBILE - ZOOM AJUSTADO ========== */
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: 110% auto !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        min-height: 100vh !important;
+    }
+    
+    .hero-overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(10, 10, 10, 0.05) 0%,
+            rgba(10, 10, 10, 0.02) 50%,
+            rgba(10, 10, 10, 0.05) 100%
+        ) !important;
+    }
+    
+    .hero-overlay::after {
+        background: radial-gradient(
+            circle at center,
+            transparent 0%,
+            rgba(10, 10, 10, 0.05) 100%
+        ) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: 108% auto !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+    
+    .hero-overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(10, 10, 10, 0.03) 0%,
+            rgba(10, 10, 10, 0.01) 50%,
+            rgba(10, 10, 10, 0.03) 100%
+        ) !important;
+    }
+    
+    .hero-overlay::after {
+        background: radial-gradient(
+            circle at center,
+            transparent 0%,
+            rgba(10, 10, 10, 0.03) 100%
+        ) !important;
+    }
+}
+
+/* ========== FIX HERO MOBILE - VERSÃO DEFINITIVA ========== */
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        min-height: 100vh !important;
+    }
+    
+    .hero-overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(10, 10, 10, 0.05) 0%,
+            rgba(10, 10, 10, 0.02) 50%,
+            rgba(10, 10, 10, 0.05) 100%
+        ) !important;
+    }
+    
+    .hero-overlay::after {
+        background: radial-gradient(
+            circle at center,
+            transparent 0%,
+            rgba(10, 10, 10, 0.05) 100%
+        ) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+    
+    .hero-overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(10, 10, 10, 0.03) 0%,
+            rgba(10, 10, 10, 0.01) 50%,
+            rgba(10, 10, 10, 0.03) 100%
+        ) !important;
+    }
+    
+    .hero-overlay::after {
+        background: radial-gradient(
+            circle at center,
+            transparent 0%,
+            rgba(10, 10, 10, 0.03) 100%
+        ) !important;
+    }
+}
+
+/* ========== FIX HERO MOBILE - ZOOM PERFEITO ========== */
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: 130% !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        min-height: 100vh !important;
+    }
+    
+    .hero-overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(10, 10, 10, 0.05) 0%,
+            rgba(10, 10, 10, 0.02) 50%,
+            rgba(10, 10, 10, 0.05) 100%
+        ) !important;
+    }
+    
+    .hero-overlay::after {
+        background: radial-gradient(
+            circle at center,
+            transparent 0%,
+            rgba(10, 10, 10, 0.05) 100%
+        ) !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        background-attachment: scroll !important;
+        background-size: 140% !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+    
+    .hero-overlay {
+        background: linear-gradient(
+            135deg,
+            rgba(10, 10, 10, 0.03) 0%,
+            rgba(10, 10, 10, 0.01) 50%,
+            rgba(10, 10, 10, 0.03) 100%
+        ) !important;
+    }
+    
+    .hero-overlay::after {
+        background: radial-gradient(
+            circle at center,
+            transparent 0%,
+            rgba(10, 10, 10, 0.03) 100%
+        ) !important;
+    }
+}
+
+
+
+
+/* ========== FIX HERO MOBILE COMPLETO ========== */
+
+/* Remove scroll arrow */
+@media (max-width: 768px) {
+    .hero-scroll {
+        display: none !important;
+    }
+    
+    /* Ajusta espaçamento dos botões */
+    .hero-buttons {
+        gap: 1rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-scroll {
+        display: none !important;
+    }
+}
