@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Donizete Ferrão - Tatuador especializado em realismo e arte profissional">
+    <title>Donizete Ferrão Tattoo | Arte Realista Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER FIXO -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>⚡ DONIZETE FERRÃO</h1>
+                <span class="logo-subtitle">Tattoo Artist</span>
+            </div>
+            <nav class="nav">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#portfolio" class="nav-link">Portfólio</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <button class="btn-mobile-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-tag">Tatuador Profissional</span>
+                <h2 class="hero-title">DONIZETE FERRÃO</h2>
+                <p class="hero-subtitle">Especialista em Realismo e Arte de Alta Qualidade</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="500">0</span>
+                        <span class="stat-label">Trabalhos Realizados</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="10">0</span>
+                        <span class="stat-label">Anos de Experiência</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="100">0</span>
+                        <span class="stat-label">% Satisfação</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/5555996979374?text=Olá! Gostaria de agendar uma sessão de tatuagem"
+                    target="_blank" class="btn-primary">
+                    📱 Agendar Sessão
+                </a>
+                <a href="#portfolio" class="btn-secondary">Ver Portfólio</a>
+            </div>
+        </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Role para baixo</span>
+            <div class="scroll-arrow"></div>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- SOBRE -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conheça o Artista</span>
+                <h2 class="section-title">Sobre Donizete Ferrão</h2>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <div class="image-frame">
+                        <img src="./img/sobre.jpg" alt="Donizete Ferrão Tatuador">
+                    </div>
+                </div>
+                <div class="sobre-text">
+                    <h3>Arte que Conta Histórias</h3>
+                    <p>Com mais de 10 anos de experiência, Donizete Ferrão se consolidou como referência em
+                        <strong>tatuagens realistas</strong> de alta qualidade. Cada trabalho é único, desenvolvido com
+                        atenção aos mínimos detalhes.
+                    </p>
+
+                    <div class="diferenciais">
+                        <div class="diferencial-item">
+                            <span class="diferencial-icon">🎯</span>
+                            <div>
+                                <h4>Precisão Técnica</h4>
+                                <p>Domínio completo das técnicas de sombreamento e realismo</p>
+                            </div>
+                        </div>
+                        <div class="diferencial-item">
+                            <span class="diferencial-icon">🏆</span>
+                            <div>
+                                <h4>Qualidade Garantida</h4>
+                                <p>Materiais de primeira linha e procedimentos seguros</p>
+                            </div>
+                        </div>
+                        <div class="diferencial-item">
+                            <span class="diferencial-icon">💎</span>
+                            <div>
+                                <h4>Exclusividade</h4>
+                                <p>Cada arte é desenvolvida especialmente para você</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5555996979374?text=Olá! Quero conhecer mais sobre seu trabalho"
+                        target="_blank" class="btn-primary">
+                        Fale Comigo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Meus Trabalhos</span>
+                <h2 class="section-title">Portfólio</h2>
+            </div>
+
+            <!-- FILTROS -->
+            <div class="filtros">
+                <button class="btn-filtro active" data-filter="todos">
+                    ✨ Todos os Trabalhos
+                </button>
+                <button class="btn-filtro" data-filter="religiosa">
+                    🙏 Religiosas
+                </button>
+                <button class="btn-filtro" data-filter="animais">
+                    🦅 Animais
+                </button>
+                <button class="btn-filtro" data-filter="personagens">
+                    🃏 Personagens
+                </button>
+                <button class="btn-filtro" data-filter="logos">
+                    ⚽ Logos
+                </button>
+                <button class="btn-filtro" data-filter="flores">
+                    🌹 Flores
+                </button>
+                <button class="btn-filtro" data-filter="urbana">
+                    🎨 Arte Urbana
+                </button>
+            </div>
+
+            <!-- CONTADOR DE TRABALHOS -->
+            <div class="portfolio-info">
+                <p class="trabalhos-count">
+                    Mostrando <strong class="count-number">0</strong> trabalhos
+                </p>
+            </div>
+
+            <!-- GRID DE TATUAGENS -->
+            <ul class="portfolio-grid"></ul>
+
+            <!-- BOTÃO ORÇAMENTO -->
+            <div class="orcamento-section">
+                <div class="orcamento-card">
+                    <h3>Pronto para sua nova tattoo?</h3>
+                    <p>Entre em contato pelo WhatsApp e solicite seu orçamento personalizado</p>
+                    <a href="https://wa.me/5555996979374?text=Olá! Gostaria de solicitar um orçamento para tatuagem"
+                        target="_blank" class="btn-orcamento">
+                        💬 Solicitar Orçamento
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Entre em Contato</span>
+                <h2 class="section-title">Vamos Criar Sua Arte?</h2>
+            </div>
+
+            <div class="contato-content">
+                <!-- INFO -->
+                <div class="contato-info">
+                    <h3>Informações de Contato</h3>
+
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Rua Florêncio Curvelo, nº 11<br>Santana do Livramento - RS</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=Rua+Florêncio+Curvelo+11+Santana+do+Livramento+RS"
+                                target="_blank" class="btn-maps">
+                                🗺️ Ver no Google Maps
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">⏰</span>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sábado<br>09:00 - 19:00</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="info-icon">📱</span>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(55) 99697-9374</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/ferraodonizette?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank" class="social-link">
+                            📷 Instagram
+                        </a>
+                        <a href="https://wa.me/5555996979374" target="_blank" class="social-link">
+                            💬 WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- FORMULÁRIO -->
+                <div class="contato-form-wrapper">
+                    <form class="contato-form" id="formContato">
+                        <h3>Envie sua Mensagem</h3>
+
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telefone">Telefone/WhatsApp</label>
+                            <input type="tel" id="telefone" name="telefone" required placeholder="(11) 99999-9999">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="estilo">Estilo de Tatuagem</label>
+                            <select id="estilo" name="estilo" required>
+                                <option value="">Selecione o estilo</option>
+                                <option value="religiosa">Religiosa</option>
+                                <option value="animais">Animais</option>
+                                <option value="personagens">Personagens</option>
+                                <option value="logos">Logos</option>
+                                <option value="flores">Flores</option>
+                                <option value="urbana">Arte Urbana</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Descreva sua Ideia</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required
+                                placeholder="Conte mais sobre a tatuagem que você deseja..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            Enviar para WhatsApp 📱
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>⚡ DONIZETE FERRÃO</h3>
+                    <p>Transformando ideias em arte permanente</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <a href="#home">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#portfolio">Portfólio</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/ferraodonizette?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                            target="_blank">📷</a>
+                        <a href="https://wa.me/5555996979374" target="_blank">💬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lucas Reppetto. Web Designer</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- BOTÕES FLUTUANTES -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/5555996979374?text=Olá! Vim pelo site e gostaria de mais informações" target="_blank"
+            class="float-btn whatsapp-float" aria-label="WhatsApp">
+            <span class="float-icon">💬</span>
+        </a>
+
+        <a href="https://www.instagram.com/ferraodonizette?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="float-btn instagram-float"
+            aria-label="Instagram">
+            <span class="float-icon">📷</span>
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+
+</html>
